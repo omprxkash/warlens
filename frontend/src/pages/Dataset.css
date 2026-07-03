@@ -1,0 +1,5 @@
+.dataset-main {
+  background:
+    radial-gradient(ellipse at 50% -20%, rgba(48, 86, 211, 0.05), transparent 55%),
+    var(--gray-2);
+}

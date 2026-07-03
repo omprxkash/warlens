@@ -1,0 +1,52 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Node
+node_modules/
+.pnp
+.pnp.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Frontend builds
+frontend/build/
+frontend/coverage/
+
+# Env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Python virtualenv artifacts that ended up in the repo
+six.py
+typing_extensions.py
+distutils-precedence.pth
+pyvenv.cfg
+*.whl
+Scripts/
+
+# Backend runtime
+backend/uploads/
+
+# Trained model weights (large; distributed separately)
+*.h5
+*.keras
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+

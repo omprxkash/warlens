@@ -1,0 +1,106 @@
+.problem {
+  padding: var(--sp-96) 0;
+  background-color: #fff;
+  border-top: var(--border-default);
+  border-bottom: var(--border-default);
+}
+
+.problem-head {
+  text-align: center;
+  margin-bottom: var(--sp-48);
+}
+
+.problem-eyebrow {
+  display: inline-block;
+  padding: 6px var(--sp-16);
+  border-radius: var(--r-pill);
+  background-color: var(--accent-3);
+  border: 1px solid var(--accent-6);
+  color: var(--accent-11);
+  font-size: var(--fs-12);
+  font-weight: var(--fw-semibold);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: var(--sp-24);
+}
+
+.problem-title {
+  font-size: clamp(2rem, 1.5rem + 2vw, 3rem);
+  font-weight: var(--fw-bold);
+  letter-spacing: -0.035em;
+  line-height: 1.05;
+}
+
+.problem-body {
+  max-width: 760px;
+  margin: 0 auto var(--sp-64);
+}
+
+.problem-para {
+  font-size: var(--fs-18);
+  line-height: 1.7;
+  color: var(--gray-12);
+  margin-bottom: var(--sp-20);
+}
+
+.problem-para:last-child {
+  color: var(--gray-11);
+  margin-bottom: 0;
+}
+
+.problem-para em {
+  font-style: italic;
+  font-family: "Newsreader", "Source Serif Pro", Georgia, serif;
+  font-weight: 500;
+  color: var(--accent-10);
+}
+
+.problem-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--sp-20);
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.stat {
+  text-align: center;
+  padding: var(--sp-32);
+  background-color: var(--gray-2);
+  border: var(--border-default);
+  border-radius: var(--r-12);
+  transition: var(--transition-default);
+}
+
+.stat:hover {
+  border-color: var(--gray-6);
+  box-shadow: var(--shadow-sm);
+}
+
+.stat-value {
+  font-size: clamp(2.25rem, 1.8rem + 2vw, 3.5rem);
+  font-weight: var(--fw-bold);
+  letter-spacing: -0.04em;
+  line-height: 1;
+  color: var(--gray-12);
+  font-variant-numeric: tabular-nums;
+  margin-bottom: var(--sp-12);
+}
+
+.stat-label {
+  font-size: var(--fs-14);
+  color: var(--gray-11);
+  line-height: 1.5;
+  max-width: 220px;
+  margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+  .problem-stats {
+    grid-template-columns: 1fr;
+    max-width: 380px;
+  }
+  .problem-para {
+    font-size: var(--fs-16);
+  }
+}

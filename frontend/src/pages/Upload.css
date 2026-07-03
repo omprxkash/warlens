@@ -1,0 +1,12 @@
+.upload-main {
+  padding: var(--sp-80) 0 var(--sp-96);
+  background:
+    radial-gradient(ellipse at 50% -20%, rgba(48, 86, 211, 0.05), transparent 55%),
+    var(--gray-2);
+}
+
+@media (max-width: 600px) {
+  .upload-main {
+    padding: var(--sp-48) 0 var(--sp-64);
+  }
+}

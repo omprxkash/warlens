@@ -1,0 +1,78 @@
+:root {
+  --gray-1: #fcfcfc;
+  --gray-2: #f8f8f8;
+  --gray-3: #f3f3f3;
+  --gray-4: #ededed;
+  --gray-5: #e8e8e8;
+  --gray-6: #e2e2e2;
+  --gray-7: #dbdbdb;
+  --gray-8: #c7c7c7;
+  --gray-9: #8f8f8f;
+  --gray-10: #858585;
+  --gray-11: #6f6f6f;
+  --gray-12: #171717;
+
+  --accent-3: hsl(223, 98.4%, 97.1%);
+  --accent-6: hsl(224, 81.9%, 87.8%);
+  --accent-9: hsl(226, 70.0%, 55.5%);
+  --accent-10: hsl(226, 58.6%, 51.3%);
+  --accent-11: hsl(226, 55.0%, 45.0%);
+
+  --warn-3: hsl(44, 100%, 91.7%);
+  --warn-9: hsl(39, 100%, 57.0%);
+  --warn-11: hsl(30, 100%, 34.0%);
+
+  --danger-3: hsl(360, 100%, 96.8%);
+  --danger-9: hsl(358, 75.0%, 59.0%);
+  --danger-11: hsl(358, 65.0%, 48.7%);
+
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  --fw-normal: 450;
+  --fw-medium: 525;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  --fs-12: 0.75rem;
+  --fs-14: 0.875rem;
+  --fs-16: 1rem;
+  --fs-18: 1.125rem;
+  --fs-20: 1.25rem;
+  --fs-24: 1.5rem;
+  --fs-32: 2rem;
+  --fs-40: 2.5rem;
+  --fs-48: 3rem;
+  --fs-56: 3.5rem;
+
+  --sp-4: 0.25rem;
+  --sp-8: 0.5rem;
+  --sp-12: 0.75rem;
+  --sp-16: 1rem;
+  --sp-20: 1.25rem;
+  --sp-24: 1.5rem;
+  --sp-32: 2rem;
+  --sp-40: 2.5rem;
+  --sp-48: 3rem;
+  --sp-64: 4rem;
+  --sp-80: 5rem;
+  --sp-96: 6rem;
+  --sp-120: 7.5rem;
+
+  --r-6: 0.375rem;
+  --r-8: 0.5rem;
+  --r-10: 0.625rem;
+  --r-12: 0.75rem;
+  --r-20: 1.25rem;
+  --r-pill: 9999px;
+
+  --shadow-sm: 0px 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0px 6px 20px rgba(0, 0, 0, 0.10);
+  --shadow-lg: 0px 12px 40px rgba(0, 0, 0, 0.12);
+
+  --border-default: 1px solid var(--gray-4);
+  --border-strong: 1px solid var(--gray-6);
+  --transition-default: 0.2s ease;
+  --transition-slow: 0.35s ease;
+
+  --container-max: 1200px;
+  --container-pad: var(--sp-24);
+}

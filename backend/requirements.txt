@@ -1,0 +1,9 @@
+flask==3.0.3
+flask-cors==5.0.0
+gunicorn==23.0.0
+tensorflow==2.18.0
+keras==3.13.2
+opencv-python-headless==4.10.0.84
+numpy==1.26.4
+pillow==10.4.0
+werkzeug==3.0.6

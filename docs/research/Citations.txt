@@ -1,0 +1,23 @@
+Halkia, M., Ferri, S., Papazoglou, M., Van Damme, M., & Thomakos, D. (2020). Conflict Event Modelling: Research Experiment and Event Data Limitations. Language Resources and Evaluation Conference (LREC 2020), Marseille, 42–48. https://www.aclweb.org/anthology/2020.aespen-1.8/
+
+Bush, K., & Duggan, C. (2013). Evaluation in Conflict Zones: Methodological and Ethical Challenges. Journal of Peacebuilding & Development, 8(2), 5-25. https://doi.org/10.1080/15423166.2013.812891
+
+Krause, J. (2021). The ethics of ethnographic methods in conflict zones. Journal of Peace Research, 58(3), 329-341. https://doi.org/10.1177/0022343320971021
+
+Raleigh, C., Linke, rew, Hegre, H., & Karlsen, J. (2010). Introducing ACLED: An Armed Conflict Location and Event Dataset. Journal of Peace Research, 47(5), 651-660. https://doi.org/10.1177/0022343310378914
+
+Chojnacki, S., Ickler, C., Spies, M., & Wiesel, J. (2012). Event Data on Armed Conflict and Security: New Perspectives, Old Challenges, and Some Solutions. International Interactions, 38(4), 382–401. https://doi.org/10.1080/03050629.2012.696981
+
+Ogira, Carol & Kamau, Roselynn & Kamau, Shallom & Bwoma, Bridgette & Komora, Bonaya & Athiany, Henry. (2024). Predicting Conflict Zones in Kenya Using a Point Process Model. International Journal of Data Science and Analysis. 10.11648/ijdsa.20241001.11.
+
+Fearon, J. D., & Laitin, D. (2014). Does contemporary armed conflict have “Deep historical roots”? SSRN Electronic Journal. https://doi.org/10.2139/ssrn.1922249
+
+Fearon, J. D., & Laitin, D. D. (2003). Ethnicity, insurgency, and civil war. American Political Science Review, 97(01), 75–90. https://doi.org/10.1017/s0003055403000534
+
+Collier, P., & Vicente, P. C. (2014). Votes and Violence: Evidence from a Field Experiment in Nigeria. The Economic Journal, 124(574), F327–F355. https://doi.org/10.1111/ecoj.12109
+
+Buhaug, H., & Rød, J. K. (2006). Local determinants of African civil wars, 1970–2001. Political Geography, 25(3), 315–335. https://doi.org/10.1016/j.polgeo.2006.02.005
+
+Murshed, S. M., & Gates, S. (2005). Spatial–Horizontal inequality and the Maoist insurgency in Nepal. Review of Development Economics, 9(1), 121–134. https://doi.org/10.1111/j.1467-9361.2005.00267.x
+
+Schutte, S. (2016). Regions at risk: Predicting conflict zones in African insurgencies. Political Science Research and Methods, 5(3), 447–465. https://doi.org/10.1017/psrm.2015.84

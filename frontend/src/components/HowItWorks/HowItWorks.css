@@ -1,0 +1,112 @@
+.how {
+  padding: var(--sp-96) 0;
+  background-color: var(--gray-2);
+  border-top: var(--border-default);
+  border-bottom: var(--border-default);
+}
+
+.how-head {
+  text-align: center;
+  margin-bottom: var(--sp-80);
+}
+
+.how-eyebrow {
+  display: inline-block;
+  padding: 6px var(--sp-16);
+  border-radius: var(--r-pill);
+  background-color: var(--accent-3);
+  border: 1px solid var(--accent-6);
+  color: var(--accent-11);
+  font-size: var(--fs-12);
+  font-weight: var(--fw-semibold);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: var(--sp-24);
+}
+
+.how-title {
+  font-size: clamp(2rem, 1.5rem + 2vw, 3rem);
+  font-weight: var(--fw-bold);
+  letter-spacing: -0.035em;
+  line-height: 1.05;
+}
+
+.how-grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--sp-32);
+  align-items: start;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.how-line {
+  position: absolute;
+  top: 36px;
+  left: 16.6%;
+  right: 16.6%;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    var(--gray-7) 12%,
+    var(--gray-7) 88%,
+    transparent 100%
+  );
+  z-index: 0;
+}
+
+.how-step {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 var(--sp-16);
+}
+
+.how-step-icon {
+  width: 72px;
+  height: 72px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gray-12);
+  background-color: var(--gray-2);
+  margin-bottom: var(--sp-32);
+}
+
+.how-step-icon svg {
+  width: 72px;
+  height: 72px;
+}
+
+.how-step-title {
+  font-size: var(--fs-24);
+  font-weight: var(--fw-bold);
+  letter-spacing: -0.025em;
+  margin-bottom: var(--sp-12);
+}
+
+.how-step-body {
+  color: var(--gray-11);
+  font-size: var(--fs-15, 0.9375rem);
+  line-height: 1.6;
+  max-width: 260px;
+}
+
+@media (max-width: 800px) {
+  .how-grid {
+    grid-template-columns: 1fr;
+    gap: var(--sp-48);
+    max-width: 360px;
+  }
+  .how-line {
+    display: none;
+  }
+  .how-step-icon {
+    margin-bottom: var(--sp-16);
+  }
+}

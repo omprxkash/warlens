@@ -1,0 +1,38 @@
+.git
+.gitignore
+.github
+.vscode
+.idea
+
+# Node
+**/node_modules
+**/build
+**/dist
+**/coverage
+npm-debug.log*
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Python
+**/__pycache__
+**/*.pyc
+**/*.pyo
+**/.pytest_cache
+**/.venv
+**/venv
+
+# Backend runtime
+backend/uploads
+
+# Large / non-runtime assets
+dataset
+docs
+*.pdf
+*.docx
+*.pptx
+*.ipynb
+Makefile
+README.md

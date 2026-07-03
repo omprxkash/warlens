@@ -1,0 +1,66 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  frontend:
+    name: Frontend (build)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Setup Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+          cache: 'npm'
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build (production)
+        env:
+          CI: true
+          REACT_APP_API_URL: http://localhost:5000
+        run: npx react-scripts build
+
+  backend:
+    name: Backend (import + /health)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+          cache-dependency-path: backend/requirements.txt
+
+      - name: Install system libs for OpenCV
+        run: sudo apt-get update && sudo apt-get install -y libgl1 libglib2.0-0
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r backend/requirements.txt
+
+      - name: Smoke test — import app and hit /health
+        working-directory: backend
+        run: |
+          python -c "import app; print('app imported successfully')"
+          python -c "
+          import app
+          client = app.app.test_client()
+          response = client.get('/health')
+          assert response.status_code == 200, f'health check failed: {response.status_code}'
+          print('health endpoint OK:', response.get_json())
+          "
